@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: hotpink;
+            width: auto;
+            height: 0.9cm;
+        }
+        #image{
+            display: inline;
+            padding: 0.1cm ;
+        }
+        .flex-container {
+            display: flex;
+            padding: 0.2cm ;
+        }
+        
+        div a {
+            color: crimson;
+            text-decoration: none;
+            padding: 0cm 0.5cm;
+        }
+
+        div a:hover {
+            background-color: #333;
+            color: aquamarine;
+        }
+
+        img {
+            width: 0.7cm;
+
+        }
+        #bg_img img{
+            width:100%;
+        }
+        .content{
+            display: flex;
+            justify-content: space-between;
+        }
+        #c1,#c2,#c3{
+            background-color: #333;
+            color: coral;
+            border: 3px solid darkcyan;
+            width: 4cm;
+            height: 2cm;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="image">
+            <img src="elephant.png">
+        </div>
+        <div class="flex-container">
+            <div><a href="#">Home</a></div>
+            <div><a href="#">About Us</a></div>
+            <div><a href="#">Contact</a></div>
+            <div><a href="#">Gallery</a></div>
+        </div>
+    </div>
+    <div id="bg_img">
+        <img src="download.png" alt="pattern image">
+    </div>
+    <div class="content">
+        <div id="c1">
+            HTML<br>CSS<br>Javascript
+        </div>
+        <div id="c2">
+            DSA<br>UID<br>MFC
+        </div>
+        <div id="c3">
+            Amrita School of Computing<br>
+            Amaravati<br>
+            Andhra Pradesh
+        </div>
+    </div>
+</body>
+
+</html>

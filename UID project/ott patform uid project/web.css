@@ -1,0 +1,64 @@
+.collywood-movies h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+}
+.collywood-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collywood-inside h3{
+    font-size: 18px;
+    font-weight:500;
+    margin-top: 6px;
+   
+}
+.collywood-inside img{
+   height: 250px;
+   transition: all 500ms ease-in-out;
+   border-radius: 10px;
+}
+.collywood-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.imdb{
+    background: teal;
+    border-radius:20px;
+    position:absolute;
+    padding: 10px 10px;
+    color: white;
+    margin-top: -80px;
+    margin-left: 120px;
+    font-weight: bolder;
+}
+.more3{
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 1220px;
+}
+.more3 a{
+    color:teal;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.btn2{
+    margin-top: -30px;
+    margin-left: 150px;
+}
+.btn2 a{
+    font-size: 13px;
+    text-decoration: none;
+    background: teal;
+    padding: 7px 7px;
+    border-radius: 10%;
+    color: white;
+
+}
+.btn2 a:hover{
+    background: black;
+    color: teal;
+    
+}

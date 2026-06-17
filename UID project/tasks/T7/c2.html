@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Layout</title>
+</head>
+<style>
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+  background-color: rgb(0, 48, 91);
+  text-align: center;
+  color: #76c46a;
+  padding: 2px;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #333;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    grid-gap: 20px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .content article {
+    margin-bottom: 20px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+</style>
+<body>
+  <header>
+    <h1>My Grid Layout</h1>
+  </header>
+
+  <nav>
+    <ul align="center">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <section class="container">
+    <section class="content">
+      <article>
+        <h1>
+            HTML
+        </h1>
+        <p>
+            div<br>b:bold<br>i:italic
+        </p>
+      </article>
+    </section>
+
+    
+  </section>
+
+  <footer>
+    <hr>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

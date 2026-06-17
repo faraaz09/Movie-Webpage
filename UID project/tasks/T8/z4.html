@@ -1,0 +1,38 @@
+<html>
+    <head><title>image slider</title>
+    <style>
+     .vvv{
+       overflow: hidden;
+     }
+     div{
+             position: relative;
+             width: 215%;
+             margin: 0;
+             left:0;
+             animation: slide 20s infinite ;
+     }
+
+     .vvv div img{
+            float: left;
+            width: 20%;
+        }
+     @keyframes slide{
+          0%{left: 0%;}
+
+         55%{left: -30%;}
+          75%{left: -58%;}
+         
+          100%{left: 0%;}
+     }
+    </style>
+    
+    </head>
+    <body>
+        <div class="vvv">
+            <div>
+            <img src="msd15.jpg">
+            <img src="msd16.jpg">
+            <img src="msd17.jpg">
+        </div></div>
+    </body>
+</html>

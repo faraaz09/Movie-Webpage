@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Progress Bar Transition</title>
+  <style>
+    .progress-bar {
+      width: 100%;
+      height: 30px;
+      margin-top: 25%;
+      background-color:red;
+    }
+    
+    .progress {
+      height: 100%;
+      background-color:blue;
+      width: 0%;
+      transition: width 3s linear;
+    }
+    
+    .progress-bar:hover .progress {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="progress-bar">
+    <div class="progress"></div>
+  </div>
+</body>
+</html>

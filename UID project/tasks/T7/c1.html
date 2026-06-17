@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation</title>
+    <style>
+.head {
+                display: grid;
+                grid-template-columns: auto 1fr;
+                align-items: center;
+                background-color:bisque;
+                height: 1cm;
+}
+.links {
+                justify-self: end;
+}
+.links a {        
+                padding: 30px;
+                color: #000000;
+                text-decoration: none;
+                transition:0.4s ease-in-out;
+}
+.links a:hover {
+                transition:0.3s ease-in-out;
+                color: rgb(123, 0, 255);
+                font-size:larger;
+}
+.head img {
+                height:0.7cm;
+                transition: 0.5s ease-in-out;
+                padding-left: 3px;
+}
+    </style>
+</head>
+<body>
+    <div class="head">
+        <img src="rhino.png" alt="rhino image">
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+        </div>
+    </div>
+</body>
+</html>
